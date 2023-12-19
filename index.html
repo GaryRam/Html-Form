@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Client</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <div>
     <h2>Client Checklist</h2>
     <section class="Yacht">
         <span>Does the client currently own a yacht?</span>
@@ -27,8 +29,8 @@
           <option value="2004-1999">2004-1999</option>
           <option value="1998-1993">1998-1993</option>
         </select>
-         </section>
-        <section class="make-type">
+      </section>
+      <section class="make-type">
            <label for="make">Make</label>
             <!--Dropdown options here!-->
             <br>
@@ -41,5 +43,28 @@
                  <option value="know">Know</option>
                 </select>
               </section>
+              <section class="model-type">
+                <label for="model">Model</label>
+                 <!--Dropdown options here!-->
+                 <br>
+                  <select name="model" id="model">
+                      <option value="model" >Model</option>
+                      <option value="random">Random</option>
+                      <option value="something">Something</option>
+                      <option value="i">i</option>
+                      <option value="don't">Don't</option>
+                      <option value="know">Know</option>
+                     </select>
+                   </section>
+                   <br>
+                   <br>
+                   <section class="Broker">
+                    <span>Is there a broker involved with this client?</span>
+                    <input type="radio" name="Broker" id="yes" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="Broker" id="no" value="no">
+                    <label for="no">No</label>
+                  </section>
+            </div>
 </body>
 </html>

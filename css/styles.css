@@ -1,0 +1,6 @@
+div{
+    border: 1px solid lightgray;
+}
+.year-type,.make-type,.model-type{
+    display: inline-block;
+}
